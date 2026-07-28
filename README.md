@@ -1,12 +1,6 @@
 # CodeAlpha Python Internship
 
-This repository contains Python projects completed as part of the CodeAlpha Python Programming Internship. The projects demonstrate fundamental Python programming concepts, problem-solving skills, and practical application development.
-
----
-
-## Internship Overview
-
-The CodeAlpha Python Internship provides hands-on experience in Python programming through real-world projects. The tasks focus on developing logical thinking, coding practices, and core programming concepts.
+This repository contains Python projects completed as part of the CodeAlpha Python Programming Internship. These projects demonstrate core Python programming concepts including loops, conditional statements, dictionaries, file handling, and user interaction.
 
 ---
 
@@ -14,58 +8,60 @@ The CodeAlpha Python Internship provides hands-on experience in Python programmi
 
 ### Task 1: Hangman Game
 
-A text-based word guessing game where the player tries to guess a hidden word one letter at a time.
+A console-based word guessing game where the player must guess a randomly selected word one letter at a time.
 
 #### Features
 - Random word selection
-- Limited incorrect attempts
+- 6 incorrect attempts allowed
 - Letter-by-letter guessing
-- Win/Loss detection
-- Interactive console gameplay
+- Win and lose conditions
+- Console-based gameplay
 
 #### Concepts Used
-- Random Module
+- Python Lists
 - Loops
 - Conditional Statements
-- Strings
-- Lists
+- String Manipulation
+- Random Module
 
 ---
 
 ### Task 2: Stock Portfolio Tracker
 
-A simple application that calculates the total value of a user's stock portfolio based on predefined stock prices.
+A simple stock investment tracker that calculates the total value of a user's investment based on predefined stock prices.
 
 #### Features
-- User stock input
-- Quantity tracking
-- Portfolio value calculation
-- Dictionary-based stock storage
-- File handling support (optional)
+- User stock selection
+- Quantity input
+- Investment value calculation
+- Hardcoded stock price dictionary
+- Saves results to a text file
 
 #### Concepts Used
 - Dictionaries
-- Input/Output Operations
-- Arithmetic Calculations
+- User Input
+- Arithmetic Operations
 - File Handling
+- Conditional Statements
 
 ---
 
 ### Task 4: Basic Chatbot
 
-A rule-based chatbot that responds to predefined user inputs and simulates a basic conversation.
+A rule-based chatbot that responds to predefined user messages.
 
 #### Features
 - Greeting responses
 - Basic conversation handling
-- Exit commands
-- Interactive user experience
+- Name query support
+- Exit command support
+- Interactive console chatbot
 
 #### Concepts Used
 - Functions
 - Loops
 - Conditional Statements
-- String Handling
+- String Processing
 
 ---
 
@@ -84,8 +80,13 @@ A rule-based chatbot that responds to predefined user inputs and simulates a bas
 CodeAlpha_Python_Internship/
 │
 ├── Task1_Hangman/
+│   └── hangman.py
+│
 ├── Task2_StockPortfolioTracker/
+│   └── stock_tracker.py
+│
 ├── Task4_BasicChatbot/
+│   └── chatbot.py
 │
 ├── README.md
 ├── LICENSE
@@ -100,9 +101,9 @@ Through these projects, I gained practical experience in:
 
 - Python Fundamentals
 - Problem Solving
-- Data Structures
 - File Handling
-- User Input Processing
+- Dictionaries and Lists
+- User Input Handling
 - Program Logic Development
 - Git and GitHub Version Control
 
